@@ -1,4 +1,4 @@
-token="538369986:AAH-p27VJnO8t3Me5Prr0gHhQIgiDn4f2OA"
+token=""
 if [ ! -f ./libs/tg ]; then
     echo "tg not found"
     echo "Run install.sh"
