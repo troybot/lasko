@@ -6,7 +6,7 @@
 
 # <p align="center" style="color: #14635c;" > التنصيب بكود واحد
 ```sh
-git clone https://github.com/alarrab2/arrab3 && cd arrab3 && chmod +x install.sh &&./install.sh
+git clone https://github.com/troybot/lasko/lasko && cd lasko && chmod +x install.sh &&./install.sh
 ```
 
 
