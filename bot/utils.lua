@@ -690,7 +690,7 @@ end
     local i = 1
   if not data[tostring(chat_id)] then
 
-    return '◈￤*  المجموعه ليست مضافه*'
+    return '◈￤*  المجـموعهہ ليست مضآفهہ*'
 
   end
   -- determine if table is empty
@@ -724,7 +724,7 @@ end
 					return "◈￤*  لايوجد اعضاء مكتومين في هذه المجموعه*"
              end
 
-   message = '_◈￤  قائمه الاعضاء المكتومين :_\n'
+   message = '_◈￤  قآئمة الآعضآ۽ آلمڪتومين :_\n'
 
   for k,v in pairs(data[tostring(chat_id)]['is_silent_users']) do
     message = message ..i.. '- '..v..' ➣ (' ..k.. ') \n'
@@ -738,7 +738,7 @@ function whitelist(chat_id)
     local data = load_data(_config.moderation.data)
     local i = 1
   if not data[tostring(chat_id)] then
-    return '◈￤*  المجموعه ليست مضافه*'
+    return '◈￤*  المجموعهہ ليست مضآفهہ*'
 
   end
   if not data[tostring(chat_id)]['whitelist'] then
